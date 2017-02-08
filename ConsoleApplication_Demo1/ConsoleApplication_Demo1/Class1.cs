@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication_Demo1
 {
-  class Program
+  public class Class1
   {
-    static void Main(string[] args)
+    public int sum(int a,int b)
     {
-      var cal = new Class1();
-      var a = cal.sum(2, 3);
-      Console.WriteLine("Sum is:" + a);
-      Console.ReadKey();
-
+      return a + b;
     }
   }
 }
